@@ -27,7 +27,7 @@ SECRET_KEY = 'qhr&mdbp*w@ez8hkf*(@x*p=y05e5z(w8b!7_*y)5!j-2652s)'
 DEBUG = False
 
 #ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['if2018db.herokuapp.com']
+ALLOWED_HOSTS = [u'if2018db.herokuapp.com']
 
 
 # Application definition
@@ -125,4 +125,4 @@ STATIC_URL = '/static/'
 #STATICFILES_DIRS = [ os.path.join(BASE_DIR, "static") ]
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+#STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
