@@ -5,24 +5,51 @@
 		<br>
 		<p class="title">Kelas {{classnum}}</p>
 		<br>
-		<table>
-			<td class="name_container">
-			{% for i in list1 %}
-				<p class="name">{{i}}</p>
-			{% endfor %}
-			</td>
-			<td class="name_container">
-			{% for i in list2 %}
-				<p class="name">{{i}}</p>
-			{% endfor %}
-			</td>
-			<td class="name_container">
-			{% for i in list3 %}
-				<p class="name">{{i}}</p>
-			{% endfor %}
-			</td>
-		</table>
+		<div class="text">
+			<table>
+				<td class="name_container">
+				{% for i in list1 %}
+					<p class="name">{{i}}</p>
+				{% endfor %}
+				</td>
+				<td class="name_container">
+				{% for i in list2 %}
+					<p class="name">{{i}}</p>
+				{% endfor %}
+				</td>
+				<td class="name_container">
+				{% for i in list3 %}
+					<p class="name">{{i}}</p>
+				{% endfor %}
+				</td>
+			</table>
+		</div>
+		<br>
+	</div>
+	<div class="content2">
+		<br>
+		<p class="title">Kelas {{classnum}}</p>
+		<br>
+		<div class="text">
+		{% for i in list1 %}
+			<p class="name">{{i}}</p>
+		{% endfor %}
+		{% for i in list2 %}
+			<p class="name">{{i}}</p>
+		{% endfor %}
+		{% for i in list3 %}
+			<p class="name">{{i}}</p>
+		{% endfor %}
+		</div>
 		<br>
 	</div>
 </div>
+<script>
+	if (window.innerHeight > window.innerWidth) {
+		document.getElementsByClassName("content")[0].remove()
+		document.getElementById("container").style.width = "80%";
+	} else {
+		document.getElementsByClassName("content2")[0].remove()
+	}
+</script>
 {% endblock frame %}
