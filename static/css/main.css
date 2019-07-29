@@ -1,5 +1,5 @@
 body {
-	background-color: #00FFFF;
+	background-color: #FFFFFF;
 	margin: 0;
 	background-image: url(../imgs/pic.jpg);
 	background-repeat: no-repeat;
@@ -34,16 +34,19 @@ table {
 	width: 90%;
 	height: auto;
 	top: 50px;
-	left: 100px;
+	left: 5%;
 }
 
 #container2 {
-	text-align: center;
-}
-
-#ll1 {
+	background-color: #FFFFFF;
 	position: relative;
-	top: 250px;
+	opacity: 0.8;
+	width: 50%;
+	height: 400px;
+	top: 150px;
+	left: 25%;
+	text-align: center;
+	font-size: 30px;
 }
 
 .content {
@@ -65,4 +68,16 @@ table {
 .name_container {
 	vertical-align: top;
 	width: 15cm;
+}
+
+#footer {
+	background-color: #000000;
+	color: #FFFFFF;
+	height: 2.5cm;
+	text-align: center;
+	font-size: 20px;
+}
+
+.footer_text {
+	margin: 20px;
 }
