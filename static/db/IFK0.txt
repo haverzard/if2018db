@@ -1,0 +1,150 @@
+001          Chandrika Azharyanti
+002          Aqil Abdul Aziz Syafiq
+003          Dimas Lucky Mahendra
+004          Qurrata A'yuni
+005          Arung Agamani Budi Putera
+006          Ahadi Ihsan Rasyidin
+007          Ade Surya Handika
+008          Hasna Roihan Nafiisah
+009          Aufa Fadhlurohman
+010          Moh. Mirza Maulana Ikhsan
+011          Muhammad Rahadian Alamsyah Putra Winarno
+012          Muhammad Hasan
+013          Raras Pradnya Pramudita
+014          Ignatius David Partogi
+015          Arief Darmawan Tantriady
+016          Indra Febrio Nugroho
+017          Farras Mohammad Hibban Faddila
+018          Steve Bezalel Iman Gustaman
+019          Muhammad Zunan Alfikri
+020          Florencia Wijaya
+021          Zaidan Naufal Sudrajat
+022          Fabian Zhafransyah
+023          Arif Rahman Amrul Ghani
+024          Jovan Karuna Cahyadi
+025          Jon Felix Germinian
+026          Faris Fadhilah
+027          Jundullah
+028          Ilham Syahid Syamsudin
+029          Yahya
+030          Tony Eko Yuwono
+031          Okugata Fahmi Nurul Yudho Fauzan
+032          Muhammad Ziad Rahmatullah
+033          Daffa Pratama Putra
+034          Anindya Prameswari Ekaputri
+035          Matthew Kevin Amadeus
+036          Fikra Hadi Ramadhan
+037          Marholop S.
+038          Inka Anindya Riyadi
+039          Aditias Alif Mardiano
+040          Muhammad Farid Adilazuarda
+041          Samuel
+042          Bagas Setyo Wicaksono
+043          Brandon Oktavian Pardede
+044          Jun Ho Choi Hedyatmo
+045          Anna Elvira Hartoyo
+046          Ferdina Wiranti Afifah
+047          Hizbulloh Ash-Shidiqy
+048          Hengky Surya Angkasa
+049          Made Prisha Wulansari
+050          Michelle Theresia
+051          Hafshy Yazid Albisthami
+052          Muhamad Rizki Nasharudin
+053          Fatkhan Masruri
+054          Muh. Muslim Al Mujahid
+055          William Fu
+056          Michael Hans
+057          Muhammad Daru Darmakusuma
+058          Taufiq Husada Daryanto
+059          Cynthia Athena Mahadewi Subroto
+060          Irfan Dwi Kusuma
+061          Rehan Adi Satrya
+062          Ricky Fernando
+063          Dhafin Rayhan Ahmad
+064          Fathan Mubina
+065          Fritz Gerald Tjie
+066          Byan Sakura Kireyna Aji
+067          Tifany Angelia
+068          Wildan Zaim Syaddad
+069          Dimas Wahyu Langkawi
+070          Felicia Gillian Tekad Tuerah
+071          Muhammad Angga Risfanani
+072          Muchammad Ibnu Sidqi
+073          Muhammad Cisco Zulfikar
+074          Iqbal Naufal
+075          Daniel Riyanto
+076          Muhammad Ayyub Abdurrahman
+077          Filbert Wijaya
+078          Felix Setiawan
+079          Fadhil Muhammad Rafi'
+080          Bambang Haryo Pramudio Bagus Anggito
+081          Vincentius Lienardo
+082          Rifaldy Aristya Kelana
+083          Jonet Wira Murti
+084          Jonathan Yudi Gunawan
+085          Annisa Ayu Pramesti
+086          Jones Napoleon Autumn
+087          Radhinansyah Hemsa Ghaida
+088          Ananda Yulizar Muhammad
+089          Annisa Rahim
+090          Arthur Edgar Yunanto
+091          Fakhrurrida Clarendia Widodo
+092          Izharulhaq
+093          Morgen Sudyanto
+094          Putri Nadia Salsabila
+095          Syarifuddin Fakhri Al Husaini
+096          Naufal Arfananda Ghifari
+097          Rakha Fadhilah
+098          Difa Habiba Rahman
+099          Muhammad Ravid Valiandi
+100          Kevin Rizki Mohammad
+101          Felicia Gojali
+102          Mohamad Falah Sutawindaya
+103          Gunawan Kamaruddin
+104          Kevin Austin Stefano
+105          Faris Muhammad Kautsar
+106          Thoriq Akbar Mahmudi
+107          Chokyi Ozer
+108          Vincent Hasiholan
+109          Andjani Kiranadewi
+110          Petrus Elison Manurung
+111          Muhammad Mirza Fathan Al Arsyad
+112          Muhammad Fauzan Al-Ghifari
+113          Muhammad Kamal Shafi
+114          Mario Gunawan
+115          Muhammad Naufal Fakhrizal
+116          Valentinus Devin Setiadi
+117          Muhammad Firas
+118          David Gozaly
+119          Rafael Sean Putra
+120          Yonatan Viody
+121          Mohammad Rafi Adyatma
+122          Stefanus Stanley Yoga Setiawan
+123          Naufal Dean Anugrah
+124          Muhammad Ridwan Fauzi
+125          Faris Rizki Ekananda
+126          Evan Pradanika
+127          Hanif Muhamad Gana
+128          Lionnarta Savirandy
+129          Yan Arie Motinggo
+130          Ryan Daniel
+131          Arya Beri Argya Rasidi
+132          Moch. Nafkhan Alzamzami
+133          Vincent Tanjaya
+134          Muhammad Raihan Iqbal
+135          Gregorius Jovan Kresnadi
+136          Reyvan Rizky Irsandy
+137          Michel Fang
+138          William
+139          Mutiara Arifazzahra
+140          Hansel Grady Daniel Thamrin
+141          Muhammad Daffa Dinaya
+142          Dwiani Yulia Ariyanti
+143          Yasyfiana Fariha Putrisusari
+144          Fabianus Harry Setiawan
+145          M. Irfaan Dzakiy
+146          Naufal Prima Yoriko
+147          Muhammad Fauzan Rafi Sidiq Widjonarto
+148          Muhammad Rizky Ismail Faizal
+149          Stefanus Gusega Gunawan
+150          Stephen Thajeb

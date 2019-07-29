@@ -1,0 +1,1 @@
+web: gunicorn if2018.wsgi --log-file -

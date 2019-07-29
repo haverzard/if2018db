@@ -1,0 +1,28 @@
+{% extends "head.html" %}
+{% block frame %}
+<div id="container">
+	<div class="content">
+		<br>
+		<p class="title">Kelas {{classnum}}</p>
+		<br>
+		<table>
+			<td class="name_container">
+			{% for i in list1 %}
+				<p class="name">{{i}}</p>
+			{% endfor %}
+			</td>
+			<td class="name_container">
+			{% for i in list2 %}
+				<p class="name">{{i}}</p>
+			{% endfor %}
+			</td>
+			<td class="name_container">
+			{% for i in list3 %}
+				<p class="name">{{i}}</p>
+			{% endfor %}
+			</td>
+		</table>
+		<br>
+	</div>
+</div>
+{% endblock frame %}
