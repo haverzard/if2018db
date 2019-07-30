@@ -2,7 +2,6 @@ body {
 	background-color: #FFFFFF;
 	margin: 0;
 	background-repeat: no-repeat;
-	background-size: 200% 100%;
 	background-attachment: fixed;
 }
 
@@ -41,14 +40,6 @@ table {
 
 #container_text {
 	position: relative;
-}
-
-.content {
-	margin: 50px;
-}
-
-.content2 {
-	margin: 50px;
 }
 
 .name_container {

@@ -10,7 +10,7 @@ if (location.pathname == "/") {
 		document.getElementById("container2").style.width = w*0.8 + "px";
 	}
 	document.getElementById("container2").style.height = w*0.25*sc + "px";
-	document.getElementById("container2").style.top = (h-w*0.25*sc)/2 + "px";
+	document.getElementById("container2").style.top = (h-w*0.25*sc-w/20*sc**2)/2 + "px";
 	document.getElementById("container_text").style.top = w*(0.25*sc - 0.035*sc**2*document.getElementsByClassName("title").length - 0.025*sc**2*document.getElementsByClassName("text").length)/2 + "px";
 } else {
 	for (i = 0; i < document.getElementsByClassName("name_container").length; i++) {
@@ -25,11 +25,11 @@ if (location.pathname == "/") {
 	if (h > w) {
 		document.getElementsByClassName("content")[0].remove();
 	document.getElementById("container").style.width = w + "px";
-	document.getElementsByClassName("content")[0].style.margin = w*0.05 + "px";
+	document.getElementsByClassName("content")[1].style.margin = w*0.05 + "px";
 	} else {
 		document.getElementsByClassName("content")[1].remove();
-	document.getElementById("container").style.width = w*0.8 + "px";
-		document.getElementsByClassName("content")[1].style.margin = w*0.8*0.05 + "px";
+		document.getElementById("container").style.width = w*0.8 + "px";
+		document.getElementsByClassName("content")[0].style.margin = w*0.8*0.05 + "px";
 	}
 	if (document.body.clientHeight < (h+w*0.05)) {
 		document.getElementById("space").style.height = h+w*0.05-document.body.clientHeight + "px";
