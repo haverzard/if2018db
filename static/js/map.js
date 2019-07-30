@@ -1,5 +1,5 @@
-h = window.innerHeight;
-w = window.innerWidth;
+h = screen.height;
+w = screen.width;
 
 sc = 1;
 

@@ -1,3 +1,8 @@
+# v.1.3.0 - Mobile and PC Interface Finished
+Added:
+- Scaling Plot
+- Enviroment Adaptation (Still on Testing)
+
 # v.1.2.5 - Font Sizing
 Added:
 - Font Size Scaling
