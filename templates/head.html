@@ -43,9 +43,7 @@
 	h = screen.height;
 	w = screen.width;
 	if (h > w) {
-		document.body.style.backgroundImage = "url({% static "imgs/pic2.jpg" %})";
-		document.body.style.backgroundSize = "cover";
-		document.body.style.backgroundPosition = "center";
+		document.body.style.backgroundColor = "#00AAAA";
 	} else {
 		document.body.style.backgroundImage = "url({% static "imgs/pic.jpg" %})";
 		document.body.style.backgroundSize = w/h*100 + "% 200%";
