@@ -36,10 +36,7 @@ table {
 	background-color: #FFFFFF;
 	position: relative;
 	opacity: 0.8;
-	height: 400px;
 	display: inline-block;
-	text-align: center;
-	font-size: 30px;
 }
 
 #container_text {
