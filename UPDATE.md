@@ -1,3 +1,7 @@
+# v.1.2.2 - Javascript Bugs Fixed
+Fixed:
+	- Javascript Typos and Changes Fixed
+
 # v.1.2.1 - Mobile Interface Fixed
 Fixed:
 	- Mobile Interfaces

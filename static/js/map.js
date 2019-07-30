@@ -20,7 +20,7 @@ if (location.pathname == "/") {
 	document.getElementById("container2").style.height = w*0.25 + "px";
 	document.getElementById("container2").style.top = (h-w*0.25)/2 + "px";
 	document.getElementById("container2").style.left = w*0.25 + "px";
-} else if (location.pathname[1] == "k") {
+} else {
 	for (i = 0; i < document.getElementsByClassName("name_container").length; i++) {
 		document.getElementsByClassName("name_container")[i].style.width = w*0.9*0.3 + "px";
 	}
@@ -30,12 +30,12 @@ if (location.pathname == "/") {
 	document.getElementById("container").style.width = w*0.9 + "px";
 	document.getElementById("container").style.top = w*0.05 + "px";
 	document.getElementById("container").style.left = w*0.05 + "px";
-	document.getElementById("context").style.margin = w*0.9*0.05 + "px";
-	document.getElementById("context2").style.margin = w*0.9*0.05 + "px";
+	document.getElementsByClassName("content")[0].style.margin = w*0.9*0.05 + "px";
+	document.getElementsByClassName("content")[1].style.margin = w*0.9*0.05 + "px";
 	document.getElementById("footer").style.height = w*0.05 + "px";
 	if (window.innerHeight > window.innerWidth) {
-		document.getElementsByClassName("content")[0].remove()
+		document.getElementsByClassName("content")[0].remove();
 	} else {
-		document.getElementsByClassName("content")[1].remove()
+		document.getElementsByClassName("content")[1].remove();
 	}
 }
