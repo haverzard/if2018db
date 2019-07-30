@@ -30,11 +30,13 @@ if (location.pathname == "/") {
 		document.getElementById("container").style.width = w*0.8 + "px";
 		document.getElementsByClassName("content")[0].style.margin = w*0.8*0.05 + "px";
 	}
+	document.body.style.display = "block";
 	if (document.body.clientHeight < (h+w*0.05)) {
 		document.getElementById("space").style.height = h+w*0.05-document.body.clientHeight + "px";
 	} else {
 		document.getElementById("space").style.height = w*0.1 + "px";
 	}
+	document.body.style.display = "none";
 }
 
 for (i = 0; i < document.getElementsByClassName("title").length; i++) {
