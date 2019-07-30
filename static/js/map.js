@@ -11,7 +11,6 @@ if (location.pathname == "/") {
 	}
 	document.getElementById("container2").style.height = w*0.25 + "px";
 	document.getElementById("container2").style.top = (h-w*0.25)/2 + "px";
-	document.getElementById("container2").style.left = w*0.25 + "px";
 	document.getElementById("container_text").style.top = w*(0.25 - 0.035*sc**2*document.getElementsByClassName("title").length - 0.025*sc**2*document.getElementsByClassName("text").length)/2 + "px";
 } else {
 	for (i = 0; i < document.getElementsByClassName("name_container").length; i++) {
