@@ -25,12 +25,17 @@ def k_view(request, id):
 	l1 = x[0:dv]
 	l2 = x[dv:dv*2]
 	l3 = x[dv*2:]
+	c = ""
 	if (id == "0"):
 		id = ""
+	elif (id == "4"):
+		id = "STI"
+	else:
+		c = "Kelas "
 	context = {
 		'list1' : l1,
 		'list2' : l2,
 		'list3' : l3,
-		'classnum' : id
+		'classnum' : c + id
 	}
 	return render(request, "class.html", context)

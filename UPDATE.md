@@ -1,3 +1,12 @@
+# v.1.2.1 - Mobile Interface Fixed
+Fixed:
+	- Mobile Interfaces
+	- Background Images Adaptation
+
+# v.1.2.0 - Responsive Update
+Fixed:
+	- Pixel Base turned into Percentage Base
+
 # v.1.1.1 - Added Home Page and Footer
 Added:
 	- Home Page

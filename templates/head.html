@@ -24,6 +24,9 @@
 					<td class="menu_box" id="k3">
 						Kelas 3
 					</td>
+					<td class="menu_box" id="k4">
+						STI
+					</td>
 				</tr>
 			</table>
 		</div>
@@ -35,4 +38,9 @@
 	</body>
 	<script src="{% static "js/menu.js" %}"></script>
 	<script src="{% static "js/map.js" %}"></script>
+	<script>
+	if (window.innerHeight > window.innerWidth) {
+		document.body.style.backgroundImage = "url({% static "imgs/pic2.jpg" %})";
+	}
+	</script>
 </html>

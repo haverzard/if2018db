@@ -1,6 +1,6 @@
 h = window.innerHeight;
 w = window.innerWidth;
-document.getElementById("menu").style.height = h/10 + "px";
+document.getElementById("menu").style.height = w/20 + "px";
 
 for (i = 0; i < document.getElementsByClassName("title").length; i++) {
 	document.getElementsByClassName("title")[i].style.fontSize = w*0.03 + "px";
@@ -11,7 +11,7 @@ for (i = 0; i < document.getElementsByClassName("text").length; i++) {
 }
 
 for (i = 0; i < document.getElementsByClassName("menu_box").length; i++) {
-	document.getElementsByClassName("menu_box")[i].style.width = w*0.2 + "px";
+	document.getElementsByClassName("menu_box")[i].style.width = w/6 + "px";
 	document.getElementsByClassName("menu_box")[i].style.fontSize = w*0.015 + "px";
 }
 
@@ -33,4 +33,9 @@ if (location.pathname == "/") {
 	document.getElementById("context").style.margin = w*0.9*0.05 + "px";
 	document.getElementById("context2").style.margin = w*0.9*0.05 + "px";
 	document.getElementById("footer").style.height = w*0.05 + "px";
+	if (window.innerHeight > window.innerWidth) {
+		document.getElementsByClassName("content")[0].remove()
+	} else {
+		document.getElementsByClassName("content")[1].remove()
+	}
 }

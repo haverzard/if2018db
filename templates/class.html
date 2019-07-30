@@ -26,7 +26,7 @@
 		</div>
 		<br>
 	</div>
-	<div class="content2">
+	<div class="content">
 		<br>
 		<p class="title">Kelas {{classnum}}</p>
 		<br>
@@ -48,12 +48,4 @@
 <footer id="footer">
 	<p class="footer_text">Created by Spartan101 in 2019 - More updates to the design and code will be happening. Hopefully.</p>
 </footer>
-<script>
-	if (window.innerHeight > window.innerWidth) {
-		document.getElementsByClassName("content")[0].remove()
-		document.getElementById("container").style.width = "80%";
-	} else {
-		document.getElementsByClassName("content2")[0].remove()
-	}
-</script>
 {% endblock frame %}
