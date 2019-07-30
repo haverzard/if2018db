@@ -43,7 +43,7 @@
 	w = window.innerWidth;
 	if (h > w) {
 		document.body.style.backgroundImage = "url({% static "imgs/pic2.jpg" %})";
-		document.body.style.backgroundSize = h/w*100 + "% 100%";
+		document.body.style.backgroundSize = h*100/w + "% 100%";
 		document.body.style.backgroundPosition = "center";
 	} else {
 		document.body.style.backgroundImage = "url({% static "imgs/pic.jpg" %})";
