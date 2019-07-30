@@ -39,8 +39,8 @@
 	<script src="{% static "js/menu.js" %}"></script>
 	<script src="{% static "js/map.js" %}"></script>
 	<script>
-	h = window.innerHeight;
-	w = window.innerWidth;
+	h = document.documentElement.clientHeight;
+	w = document.documentElement.clientWidth;
 	if (h > w) {
 		document.body.style.backgroundImage = "url({% static "imgs/pic2.jpg" %})";
 		document.body.style.backgroundSize = h/w*100 + "% 100%";

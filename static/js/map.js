@@ -1,5 +1,5 @@
-h = screen.height;
-w = screen.width;
+h = document.documentElement.clientHeight;
+w = document.documentElement.clientWidth;
 document.getElementById("menu").style.height = w/20 + "px";
 
 for (i = 0; i < document.getElementsByClassName("title").length; i++) {
@@ -34,7 +34,7 @@ if (location.pathname == "/") {
 	document.getElementsByClassName("content")[0].style.margin = w*0.9*0.05 + "px";
 	document.getElementsByClassName("content")[1].style.margin = w*0.9*0.05 + "px";
 	document.getElementById("footer").style.height = w*0.05 + "px";
-	if (screen.height > screen.width) {
+	if (h > w) {
 		document.getElementsByClassName("content")[0].remove();
 	} else {
 		document.getElementsByClassName("content")[1].remove();
