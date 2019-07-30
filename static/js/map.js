@@ -20,10 +20,10 @@ if (location.pathname == "/") {
 		document.getElementsByClassName("footer_text")[i].style.fontSize = w*0.01 + "px";
 	}
 	document.getElementById("footer_box").style.top = w*(0.05-0.01*document.getElementsByClassName("footer_text").length)/2 + "px";
-	document.getElementById("container").style.width = w*0.8 + "px";
+	document.getElementById("container").style.width = w*0.9 + "px";
 	document.getElementById("container").style.top = w*0.05 + "px";
-	document.getElementsByClassName("content")[0].style.margin = w*0.8*0.05 + "px";
-	document.getElementsByClassName("content")[1].style.margin = w*0.8*0.05 + "px";
+	document.getElementsByClassName("content")[0].style.margin = w*0.9*0.05 + "px";
+	document.getElementsByClassName("content")[1].style.margin = w*0.9*0.05 + "px";
 	document.getElementById("footer").style.height = w*0.05 + "px";
 	if (h > w) {
 		document.getElementsByClassName("content")[0].remove();
@@ -43,8 +43,8 @@ for (i = 0; i < document.getElementsByClassName("title").length; i++) {
 }
 
 for (i = 0; i < document.getElementsByClassName("text").length; i++) {
-	document.getElementsByClassName("text")[i].style.fontSize = w*0.012*sc**2 + "px";
-	document.getElementsByClassName("text")[i].style.lineHeight = w*0.025*sc**2 + "px";
+	document.getElementsByClassName("text")[i].style.fontSize = w*0.012*sc**1.5 + "px";
+	document.getElementsByClassName("text")[i].style.lineHeight = w*0.025*sc**1.5 + "px";
 }
 
 document.getElementById("menu").style.height = w/20*sc**2 + "px";
