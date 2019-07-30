@@ -2,7 +2,7 @@ h = screen.height;
 w = screen.width;
 
 sc = 1;
-
+document.body.style.display = "none";
 if (h > w) { sc=2; };
 if (location.pathname == "/") {
 	document.getElementById("container2").style.width = w*0.5 + "px";
@@ -54,3 +54,5 @@ for (i = 0; i < document.getElementsByClassName("menu_box").length; i++) {
 	document.getElementsByClassName("menu_box")[i].style.width = w/6*sc + "px";
 	document.getElementsByClassName("menu_box")[i].style.fontSize = w*0.02*sc + "px";
 }
+
+document.body.style.display = "block";
