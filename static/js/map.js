@@ -24,8 +24,8 @@ if (location.pathname == "/") {
 	document.getElementById("footer").style.height = w*0.05 + "px";
 	if (h > w) {
 		document.getElementsByClassName("content")[0].remove();
-	document.getElementById("container").style.width = w + "px";
-	document.getElementsByClassName("content")[1].style.margin = w*0.05 + "px";
+		document.getElementById("container").style.width = w + "px";
+		document.getElementsByClassName("content")[0].style.margin = w*0.05 + "px";
 	} else {
 		document.getElementsByClassName("content")[1].remove();
 		document.getElementById("container").style.width = w*0.8 + "px";
