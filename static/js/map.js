@@ -5,7 +5,10 @@ sc = 1;
 
 if (h > w) { sc=2; };
 if (location.pathname == "/") {
-	document.getElementById("container2").style.width = w*0.5*sc + "px";
+	document.getElementById("container2").style.width = w*0.5 + "px";
+	if (h > w) {
+		document.getElementById("container2").style.width = w*0.8 + "px";
+	}
 	document.getElementById("container2").style.height = w*0.25 + "px";
 	document.getElementById("container2").style.top = (h-w*0.25)/2 + "px";
 	document.getElementById("container2").style.left = w*0.25 + "px";
