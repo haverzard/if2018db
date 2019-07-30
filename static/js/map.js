@@ -1,5 +1,5 @@
-h = document.documentElement.clientHeight;
-w = document.documentElement.clientWidth;
+h = screen.height;
+w = screen.width;
 document.getElementById("menu").style.height = w/20 + "px";
 
 for (i = 0; i < document.getElementsByClassName("title").length; i++) {
