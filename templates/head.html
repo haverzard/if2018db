@@ -3,6 +3,7 @@
 <html>
 	<head>
 		<title>IF 2018 DB</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="{% static "css/main.css" %}" rel="stylesheet" type="text/css">
 	</head>
 	<body>
@@ -39,8 +40,8 @@
 	<script src="{% static "js/menu.js" %}"></script>
 	<script src="{% static "js/map.js" %}"></script>
 	<script>
-	h = document.documentElement.clientHeight;
-	w = document.documentElement.clientWidth;
+	h = screen.height;
+	w = screen.width;
 	if (h > w) {
 		document.body.style.backgroundImage = "url({% static "imgs/pic2.jpg" %})";
 		document.body.style.backgroundSize = h/w*100 + "% 100%";
