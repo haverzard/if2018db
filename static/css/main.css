@@ -36,10 +36,8 @@ table {
 	background-color: #FFFFFF;
 	position: relative;
 	opacity: 0.8;
-	width: 50%;
 	height: 400px;
-	top: 150px;
-	left: 25%;
+	display: inline-block;
 	text-align: center;
 	font-size: 30px;
 }
