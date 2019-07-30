@@ -3,18 +3,14 @@ from __future__ import unicode_literals
 
 from django.shortcuts import render
 
+ver = "1.2.3"
+
 # Create your views here.
 def home_view(request):
-	return render(request, "home.html", {})
-
-def all_view(request):
-	x = open('static/db/IF.txt').readlines()
 	context = {
-		'list1' : l1,
-		'list2' : l2,
-		'list3' : l3,
+		'v' : ver
 	}
-	return render(request, "all.html", context)
+	return render(request, "home.html", context)
 
 def k_view(request, id):
 	x = open('static/db/IFK' + id + '.txt').readlines()
@@ -36,6 +32,7 @@ def k_view(request, id):
 		'list1' : l1,
 		'list2' : l2,
 		'list3' : l3,
-		'classnum' : id
+		'classnum' : id,
+		'v' : ver
 	}
 	return render(request, "class.html", context)

@@ -27,6 +27,7 @@ if (location.pathname == "/") {
 	for (i = 0; i < document.getElementsByClassName("footer_text").length; i++) {
 		document.getElementsByClassName("footer_text")[i].style.fontSize = w*0.01 + "px";
 	}
+	document.getElementById("footer_box").style.top = w*(0.05-0.01*document.getElementsByClassName("footer_text").length)/2 + "px";
 	document.getElementById("container").style.width = w*0.9 + "px";
 	document.getElementById("container").style.top = w*0.05 + "px";
 	document.getElementById("container").style.left = w*0.05 + "px";
