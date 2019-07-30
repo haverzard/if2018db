@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 
 from django.shortcuts import render
 
-ver = "1.2.3"
+ver = "1.2.4"
 
 # Create your views here.
 def home_view(request):

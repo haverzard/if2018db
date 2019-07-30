@@ -1,3 +1,7 @@
+# v.1.2.4 - Background Fix
+Fixed:
+- Background: Position and Size
+
 # v.1.2.3 - More Fixes to Mobile Interface
 Added:
 - Version Tracking

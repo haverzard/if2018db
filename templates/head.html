@@ -39,9 +39,17 @@
 	<script src="{% static "js/menu.js" %}"></script>
 	<script src="{% static "js/map.js" %}"></script>
 	<script>
-	if (window.innerHeight > window.innerWidth) {
-		document.body.style.backgroundImage = "";
-		document.body.style.backgroundColor = "#00DDDD";
+	h = window.innerHeight;
+	w = window.innerWidth;
+	if (h > w) {
+		document.body.style.backgroundImage = "url({% static "imgs/pic2.jpg" %})";
+		document.body.style.backgroundSize = h/w*100 + "% 100%";
+		document.body.style.backgroundPosition = "center";
+	} else {
+		document.body.style.backgroundImage = "url({% static "imgs/pic.jpg" %})";
+		document.body.style.backgroundSize = "100% " + w/h*100 + "%";
+		document.body.style.backgroundPosition = "center";
+		
 	}
 	</script>
 </html>

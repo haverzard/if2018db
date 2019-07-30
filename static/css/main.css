@@ -1,9 +1,7 @@
 body {
 	background-color: #FFFFFF;
 	margin: 0;
-	background-image: url(../imgs/pic.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
 	background-attachment: fixed;
 }
 
