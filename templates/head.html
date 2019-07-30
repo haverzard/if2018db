@@ -40,8 +40,8 @@
 	<script src="{% static "js/menu.js" %}"></script>
 	<script src="{% static "js/map.js" %}"></script>
 	<script>
-	h = screen.height;
-	w = screen.width;
+	h = window.innerHeight;
+	w = window.innerWidth;
 	if (h > w) {
 		document.body.style.backgroundColor = "#00AAAA";
 	} else {

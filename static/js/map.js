@@ -1,25 +1,15 @@
 h = window.innerHeight;
 w = window.innerWidth;
-document.getElementById("menu").style.height = w/20 + "px";
 
-for (i = 0; i < document.getElementsByClassName("title").length; i++) {
-	document.getElementsByClassName("title")[i].style.fontSize = w*0.03 + "px";
-}
+sc = 1;
 
-for (i = 0; i < document.getElementsByClassName("text").length; i++) {
-	document.getElementsByClassName("text")[i].style.fontSize = w*0.01 + "px";
-}
-
-for (i = 0; i < document.getElementsByClassName("menu_box").length; i++) {
-	document.getElementsByClassName("menu_box")[i].style.width = w/6 + "px";
-	document.getElementsByClassName("menu_box")[i].style.fontSize = w*0.015 + "px";
-}
-
+if (h > w) { sc=2; };
 if (location.pathname == "/") {
 	document.getElementById("container2").style.width = w*0.5 + "px";
 	document.getElementById("container2").style.height = w*0.25 + "px";
 	document.getElementById("container2").style.top = (h-w*0.25)/2 + "px";
 	document.getElementById("container2").style.left = w*0.25 + "px";
+	document.getElementById("container_text").style.top = w*(0.25 - 0.02*sc*document.getElementsByClassName("title").length - 0.01*sc*document.getElementsByClassName("text").length)/2 + "px";
 } else {
 	for (i = 0; i < document.getElementsByClassName("name_container").length; i++) {
 		document.getElementsByClassName("name_container")[i].style.width = w*0.9*0.3 + "px";
@@ -39,4 +29,20 @@ if (location.pathname == "/") {
 	} else {
 		document.getElementsByClassName("content")[1].remove();
 	}
+}
+
+for (i = 0; i < document.getElementsByClassName("title").length; i++) {
+	document.getElementsByClassName("title")[i].style.fontSize = w*0.02*sc + "px";
+	document.getElementsByClassName("title")[i].style.height = w*0.02*sc + "px";
+}
+
+for (i = 0; i < document.getElementsByClassName("text").length; i++) {
+	document.getElementsByClassName("text")[i].style.fontSize = w*0.01*sc + "px";
+}
+
+document.getElementById("menu").style.height = w/20*sc**2 + "px";
+
+for (i = 0; i < document.getElementsByClassName("menu_box").length; i++) {
+	document.getElementsByClassName("menu_box")[i].style.width = w/6*sc + "px";
+	document.getElementsByClassName("menu_box")[i].style.fontSize = w*0.02*sc + "px";
 }

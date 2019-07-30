@@ -28,7 +28,6 @@ table {
 	background-color: #FFFFFF;
 	position: relative;
 	opacity: 0.8;
-	height: auto;
 }
 
 #container2 {
@@ -41,6 +40,10 @@ table {
 	left: 25%;
 	text-align: center;
 	font-size: 30px;
+}
+
+#container_text {
+	position: relative;
 }
 
 .content {
