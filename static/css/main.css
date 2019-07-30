@@ -28,6 +28,8 @@ table {
 	background-color: #FFFFFF;
 	position: relative;
 	opacity: 0.8;
+	display: inline-block;
+	text-align: left;
 }
 
 #container2 {
@@ -67,4 +69,8 @@ table {
 
 #footer_box {
 	position: relative;
+}
+
+#main_frame {	
+	text-align: center;
 }
