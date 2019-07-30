@@ -32,12 +32,13 @@ if (location.pathname == "/") {
 }
 
 for (i = 0; i < document.getElementsByClassName("title").length; i++) {
-	document.getElementsByClassName("title")[i].style.fontSize = w*0.02*sc**2 + "px";
-	document.getElementsByClassName("title")[i].style.height = w*0.02*sc**2 + "px";
+	document.getElementsByClassName("title")[i].style.fontSize = w*0.03*sc**2 + "px";
+	document.getElementsByClassName("title")[i].style.lineHeight = w*0.04*sc**2 + "px";
 }
 
 for (i = 0; i < document.getElementsByClassName("text").length; i++) {
-	document.getElementsByClassName("text")[i].style.fontSize = w*0.01*sc**2 + "px";
+	document.getElementsByClassName("text")[i].style.fontSize = w*0.015*sc**2 + "px";
+	document.getElementsByClassName("text")[i].style.lineHeight = w*0.03*sc**2 + "px";
 }
 
 document.getElementById("menu").style.height = w/20*sc**2 + "px";

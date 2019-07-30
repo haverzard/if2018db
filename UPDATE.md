@@ -1,3 +1,9 @@
+# v.1.2.5 - Font Sizing
+Added:
+- Font Size Scaling
+Fixed:
+- Font Size
+
 # v.1.2.4 - Background Fix
 Fixed:
 - Background: Position and Size

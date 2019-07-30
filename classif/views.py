@@ -14,6 +14,10 @@ def home_view(request):
 
 def k_view(request, id):
 	x = open('static/db/IFK' + id + '.txt').readlines()
+	for i in range(len(x)):
+		a = x[i][13:].split(" ")
+		if (len(a) > 2):
+			x[i] = x[i][:13] + a[0] + " " + a[1]
 	if (len(x) % 3 != 0):
 		dv = len(x)//3 + 1
 	else:
