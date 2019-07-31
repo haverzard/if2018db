@@ -27,7 +27,7 @@ document.getElementById("all").onclick = function(){ location.assign("/k/0"); };
 document.getElementById("k1").onclick = function(){ location.assign("/k/1"); };
 document.getElementById("k2").onclick = function(){ location.assign("/k/2"); };
 document.getElementById("k3").onclick = function(){ location.assign("/k/3"); };
-//document.getElementById("k4").onclick = function(){ location.assign("/k/4"); };
+document.getElementById("k4").onclick = function(){ location.assign("/k/4"); };
 
 
 if (location.pathname == "/") {

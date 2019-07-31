@@ -1,3 +1,9 @@
+# v.1.4.0 - STI Joined the game
+Added:
+- STI Data
+Fixed:
+- Slow Page Load (Hopefully works as intended)
+
 # v.1.3.5 - Functions Optimization
 Added:
 - New Clean DBs

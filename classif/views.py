@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 
 from django.shortcuts import render
 
-ver = "1.3.5"
+ver = "1.4.0"
 
 # Create your views here.
 def home_view(request):
@@ -32,7 +32,7 @@ def k_view(request, id):
 	if (id == "0"):
 		id = "Semua Kelas IF"
 	elif (id == "4"):
-		id = "STI"
+		id = "Semua Kelas STI"
 	else:
 		id = "Kelas " + id
 	context = {
@@ -42,4 +42,6 @@ def k_view(request, id):
 		'classnum' : id,
 		'v' : ver
 	}
-	return render(request, "class.html", context)
+	r = render(request, "class.html", context)
+	r['Cache-Control'] = 'public, max-age=31536000'
+	return r
