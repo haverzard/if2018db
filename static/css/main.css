@@ -3,7 +3,6 @@ body {
 	margin: 0;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	display: none;
 }
 
 table {
@@ -12,6 +11,7 @@ table {
 
 #menu_body {	
 	position: sticky;
+	display: none;
 	z-index: 2;
 	width: 100%;
 	top: 0;
@@ -60,4 +60,5 @@ table {
 
 #main_frame {	
 	text-align: center;
+	display: none;
 }

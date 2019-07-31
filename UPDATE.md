@@ -1,3 +1,13 @@
+# v.1.3.5 - Functions Optimization
+Added:
+- New Clean DBs
+- Priority Load
+Fixed:
+- Functions Stack
+Removed:
+- Random and Useless Functions
+- Hidden but Useless Copy of Page
+
 # v.1.3.0 - Mobile and PC Interface Finished
 Added:
 - Scaling Plot

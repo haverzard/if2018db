@@ -6,7 +6,7 @@
 		<div class="title">{{classnum}}</div>
 		<br>
 		<div class="text">
-			<table>
+			<table id="name_tab">
 				<td class="name_container">
 				{% for i in list1 %}
 					<div class="name">{{i}}</div>
@@ -23,23 +23,6 @@
 				{% endfor %}
 				</td>
 			</table>
-		</div>
-		<br>
-	</div>
-	<div class="content">
-		<br>
-		<div class="title">{{classnum}}</div>
-		<br>
-		<div class="text">
-		{% for i in list1 %}
-			<div class="name">{{i}}</div>
-		{% endfor %}
-		{% for i in list2 %}
-			<div class="name">{{i}}</div>
-		{% endfor %}
-		{% for i in list3 %}
-			<div class="name">{{i}}</div>
-		{% endfor %}
 		</div>
 		<br>
 	</div>

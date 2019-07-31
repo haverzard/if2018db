@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 
 from django.shortcuts import render
 
-ver = "1.3.0"
+ver = "1.3.5"
 
 # Create your views here.
 def home_view(request):
@@ -13,11 +13,14 @@ def home_view(request):
 	return render(request, "home.html", context)
 
 def k_view(request, id):
-	x = open('static/db/IFK' + id + '.txt').readlines()
+	x = open('static/db/IFK' + id + 'x.txt').readlines()
+	'''
 	for i in range(len(x)):
 		a = x[i][13:].split(" ")
 		if (len(a) > 2):
-			x[i] = x[i][:13] + a[0] + " " + a[1]
+			x[i] = x[i][:13] + a[0] + " " + a[1] + "\n"
+	open('static/db/IFK' + id + 'x.txt',"w").writelines(x)
+	'''
 	if (len(x) % 3 != 0):
 		dv = len(x)//3 + 1
 	else:
